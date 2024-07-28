@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Up Service</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .header {
+            position: relative;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        .title {
+            font-size: 48px;
+            color: red;
+            font-weight: bold;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .price-list-title {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .highlight {
+            color: #ffc107;
+        }
+
+        .price-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .price-item {
+            background-color: #222;
+            border-radius: 10px;
+            overflow: hidden;
+            width: 200px;
+            text-align: center;
+            padding: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .price-item img {
+            width: 100%;
+            height: auto;
+        }
+
+        .price-item .amount {
+            font-size: 18px;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .price-item .price {
+            font-size: 18px;
+            color: #ffc107;
+        }
+
+        .price-item:hover {
+            transform: scale(1.05);
+        }
+
+        .note {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #ff5722;
+        }
+
+        .note-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        .note-item img {
+            width: 80px;
+            height: 80px;
+            margin-right: 10px;
+        }
+
+        .note-item span {
+            flex: 1;
+        }
+
+        .buy-now {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: red;
+            color: #fff;
+            display: inline-block;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .buy-now:hover {
+            background-color: darkred;
+            text-decoration: underline;
+        }
+
+        .contact-info {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+
+        .contact-info a {
+            color: #ffc107;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            .title {
+                font-size: 32px;
+            }
+
+            .price-list-title {
+                font-size: 20px;
+            }
+
+            .price-item .amount, .price-item .price {
+                font-size: 16px;
+            }
+
+            .buy-now {
+                padding: 8px 16px;
+            }
+
+            .contact-info p {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="title">TOP UP SERVICE</h1>
+        </div>
+        <div class="content">
+            <h2 class="price-list-title">PRICE LIST FOR <span class="highlight">PUBG UC</span></h2>
+            <div class="price-list">
+                <div class="price-item">
+                    <img src="pngaaa.com-7785269.png" alt="60 UC">
+                    <div class="amount">60 UC</div>
+                    <div class="price">RS 55</div>
+                </div>
+                <div class="price-item">
+                    <img src="pngaaa.com-7785269.png" alt="300+25 UC">
+                    <div class="amount">300+25 UC</div>
+                    <div class="price">RS 275</div>
+                </div>
+                <div class="price-item">
+                    <img src="pngaaa.com-7785269.png" alt="600+60 UC">
+                    <div class="amount">600+60 UC</div>
+                    <div class="price">RS 550</div>
+                </div>
+                <div class="price-item">
+                    <img src="pngaaa.com-7785269.png" alt="1500+300 UC">
+                    <div class="amount">1500+300 UC</div>
+                    <div class="price">RS 1375</div>
+                </div>
+                <div class="price-item">
+                    <img src="pngaaa.com-7785269.png" alt="3000+850 UC">
+                    <div class="amount">3000+850 UC</div>
+                    <div class="price">RS 2750</div>
+                </div>
+                <div class="price-item">
+                    <img src="pngaaa.com-7785269.png" alt="6000+2100 UC">
+                    <div class="amount">6000+2100 UC</div>
+                    <div class="price">RS 5500</div>
+                </div>
+            </div>
+            <div class="note">
+                <div class="note-item">
+                    <img src="Screenshot 2024-07-27 173803.png" alt="Player ID">
+                    <img src="Screenshot 2024-07-27 173813.png" alt="Player ID">
+                    <span>Only player ID required.</span>
+                </div>
+                <div class="note-item">
+                    <img src="Screenshot 2024-07-27 174435.png" alt="MCB Juice">
+                    <span>Pay through MCB Juice.</span>
+                </div>
+                <div class="note-item">
+                    <span>Face payment required 100Rs transport fee.</span>
+                </div>
+            </div>
+            <a href="https://wa.me/message/RQDN2ZW2GYAJN1" class="buy-now">CONTACT NOW</a>
+            <div class="contact-info">
+                <p><a href="tel:1234567890">+230 58802509</a></p>
+                <p><a href="https://wa.me/message/RQDN2ZW2GYAJN1" target="_blank" rel="noopener noreferrer"></a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
